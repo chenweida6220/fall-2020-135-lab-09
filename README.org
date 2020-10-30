@@ -1,31 +1,31 @@
 * Fall 2020 - Lab 09
 
-* Last name:
+* Last name: Chen
 
-* First name:
+* First name: Wei Da
 
-* GitHub username:
+* GitHub username: Drago12354
 
 * Notes:
 
 
-  
+
 * General instructions:
 - Fill in your name and GitHub username on top.
 - Use the Notes section to add any notes to the instructor.
 - The main lab description can be found here:
-  https://maryash.github.io/135/labs/lab_09.html 
+  https://maryash.github.io/135/labs/lab_09.html
 
 
-* Specific instructions and requirementsfor lab 09 
+* Specific instructions and requirementsfor lab 09
 
-This and future labs will start with a mostly empty repository. 
+This and future labs will start with a mostly empty repository.
 
 You must:
 
 1. Use ~doctest.h~ based tests to test your solutions unless a
    specific task says otherwise.
-2. Have a ~Makefile~ with at least the following targets: 
+2. Have a ~Makefile~ with at least the following targets:
    1. ~main~ to build *main* which will run your project
    2. ~tests~ to build *tests* which will run the doctest based tests
    3. ~clean~ which will remove *.o* files
@@ -42,7 +42,7 @@ actual code for the methods.
 
 With one exception which we'll see later, a class's specification is
 placed in a ~.h~ file which is then included. So, for this lab, you
-syould have a file named ~coord3d.h~ which contains: 
+syould have a file named ~coord3d.h~ which contains:
 
 #+begin_src c++
 #pragma once
@@ -64,18 +64,15 @@ specifies functions that have a parameter of type ~Coord3D~.
 
 Write the functions in one or more ~.cpp~ and ~.h~ files that
 implement the specified functionality. Call them from main and
-implement sufficient tests via doctest. 
+implement sufficient tests via doctest.
 
 ** Task D
 
 For this task, write a separate ~.cpp~ file as specified in the main
 lab.
 
-** Task F 
+** Task F
 
 This task is optional but if you complete it, add it to the same
 program as tasks A-C,E by creating a file ~Particle.h~ that specifies
 the Particle class. Implement the functions as you see fit.
-
-
-
