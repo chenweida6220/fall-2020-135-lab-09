@@ -13,6 +13,9 @@ int main() {
         string *p;
         p = createAPoemDynamically();
 
+        // keep creating
+        cout << *p << endl;
+
         //assume that the poem p is not needed at this point
         delete p;
     }
